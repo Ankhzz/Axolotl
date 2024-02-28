@@ -1,0 +1,9 @@
+**.env
+.vscode
+venv
+.ipynb*
+*.parquet
+*.csv
+*.pkl
+*.json
+.env
