@@ -28,9 +28,9 @@ async def on_ready():
         for guild in bot.guilds:
             for channel in guild.text_channels:
                 if channel.name == 'general':
-                    await channel.send('Hello, I am a bot and I am ready to serve you!')
+                    await channel.send('Hola jefe, ya llegue!')
     except Exception as e:
-        print(f'An error occurred in on_ready: {e}')
+        print(f'un error ocurrio en on_ready: {e}')
         raise
 
 
